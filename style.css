@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nameHeading{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 45px;
+    
+}
+body{
+
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background: rgb(2,0,36); */
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 57%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+.container
+{
+            border: 1px solid white;
+padding: 180px;
+border-radius: 25px;
+box-shadow: 20px black;
+
+
+}
+.card
+{
+display: flex;
+font-family: 'Rubik Vinyl', cursive;
+box-shadow: 5px;
+    
+}
+
+.hour{
+    font-size: 150px;
+    margin-right: 15px;
+}.min{
+    font-size: 80px;
+    padding-top: 80px;
+    margin-right: 15px;
+}
+.sec{
+    font-size: 50px;
+    padding-top: 120px;
+    margin-right: 15px;
+}
+.pm{
+    font-size: 50px;
+    font-family: cursive;
+    text-transform: lowercase;
+    padding-top: 120px;
+}
